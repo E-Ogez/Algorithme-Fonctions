@@ -4,6 +4,16 @@
 #include <stdio.h>
 
 float moyenne(int x, int y)
+{
+		float m;
+		int s;
+
+		s = x + y;
+		m = s / 2.0;
+
+		printf("a=%d, b=%d, m=%f, s=%d\n", x, y, m, s);
+		return m;
+}
 
 
 int main()
@@ -21,17 +31,6 @@ int main()
 	printf("La moyenne de %d et %d est : %f\n", x, y, m);
 	return 0;
 
-}
-	float moyenne(int x, int y)
-{
-		float m;
-		int s;
-
-		s = x + y;
-		m = s / 2.0;
-
-		printf("a=%d, b=%d, m=%f, s=%d\n", x, y, m, s);
-		return m;
 }
 
 /* Ecrire une fonction qui calcule x puis y. Cette fonction sera appelée dans un
