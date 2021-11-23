@@ -3,7 +3,8 @@
 #include <iostream>
 #include <stdio.h>
 
-float moyenne(int x, int y);
+float moyenne(int x, int y)
+
 
 int main()
 {
